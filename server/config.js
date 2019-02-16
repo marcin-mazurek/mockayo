@@ -1,6 +1,6 @@
 const get = require("lodash.get");
 const requireFresh = require("./requireFresh");
-const { DEFAULT_HTTP_METHOD } = require('./defaults');
+const { DEFAULT_HTTP_METHOD } = require("./defaults");
 
 let configFile;
 
@@ -23,7 +23,9 @@ const getEndpointConfig = (url, method = DEFAULT_HTTP_METHOD) =>
     entry => entry.url === url && entry.method === method
   );
 
-const setConfigFile = file => { configFile = file };
+const setConfigFile = file => {
+  configFile = file;
+};
 
 module.exports = {
   getConfig,

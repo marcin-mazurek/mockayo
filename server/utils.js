@@ -1,6 +1,6 @@
 const path = require("path");
 
-const { DEFAULT_HTTP_METHOD } = require('./defaults');
+const { DEFAULT_HTTP_METHOD } = require("./defaults");
 const { getConfig } = require("./config");
 
 const getScenarioPath = (endpointConfig, scenario) =>

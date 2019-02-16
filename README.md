@@ -52,3 +52,5 @@ Now, you can run your mock server, using the following command:
 ```
 npm run mock-server
 ```
+
+When the server is running, you can make all calls you defined in the config, as well as access the control UI to switch scenarios.
