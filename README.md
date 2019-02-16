@@ -1,5 +1,7 @@
 # Mockayo - simple HTTP mock server
 
+![screenshot 2019-02-16 at 19 21 16](https://user-images.githubusercontent.com/6684554/52903598-2275d280-3220-11e9-890c-31ce87103646.png)
+
 ## Set up
 
 Install the package as a devDependency:
