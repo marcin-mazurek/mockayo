@@ -32,7 +32,7 @@ Each scenario should be a regular JavaScript file, exporting an object with the 
 ```
 module.exports = {
   code: [HTTP RESPONSE CODE], // defaults to 200
-  body: [JAVASCRIPT OBJECT TO BE USED AS RESPONSE BODY],
+  body: [HTTP RESPONSE BODY - STRING OR JAVASCRIPT OBJECT (NOT SERIALIZED)],
 }
 ```
 
