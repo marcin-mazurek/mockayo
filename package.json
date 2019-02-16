@@ -1,6 +1,8 @@
 {
   "name": "mockayo",
   "version": "0.0.2",
+  "license": "MIT",
+  "repository": "https://github.com/marcin-mazurek/mockayo",
   "description": "Mock HTTP server with simple configuration and UI to control the server behaviour",
   "main": "src/index.js",
   "engines": {
