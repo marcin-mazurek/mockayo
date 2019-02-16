@@ -1,6 +1,6 @@
 {
   "name": "mockayo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Mock HTTP server with simple configuration and UI to control the server behaviour",
   "main": "src/index.js",
   "engines": {
