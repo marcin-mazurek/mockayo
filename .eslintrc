@@ -1,0 +1,12 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "rules": {
+    "no-console": "off",
+    "consistent-return": "off",
+    "prefer-destructuring": "off"
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}
