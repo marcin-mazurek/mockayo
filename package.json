@@ -1,0 +1,27 @@
+{
+  "name": "mockayo",
+  "version": "0.0.1",
+  "description": "Mock HTTP server with simple configuration and UI to control the server behaviour",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "start": "node ./server/runServer.js",
+    "develop": "nodemon ./server/runServer.js",
+    "format": "prettier server/** ui/** bin/** --write"
+  },
+  "bin": {
+    "mockayo": "./bin/mockayo.js"
+  },
+  "dependencies": {
+    "argparse": "^1.0.10",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "lodash.get": "^4.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "prettier": "^1.16.4"
+  }
+}

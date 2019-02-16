@@ -1,0 +1,9 @@
+const DEFAULT_SCENARIO_FILE = "default.js";
+const DEFAULT_HTTP_METHOD = "GET";
+const DEFAULT_CODE = 200;
+
+module.exports = {
+  DEFAULT_SCENARIO_FILE,
+  DEFAULT_HTTP_METHOD,
+  DEFAULT_CODE
+};
