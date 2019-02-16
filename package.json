@@ -5,6 +5,12 @@
   "repository": "https://github.com/marcin-mazurek/mockayo",
   "description": "Mock HTTP server with simple configuration and UI to control the server behaviour",
   "main": "src/index.js",
+  "keywords": [
+    "mock",
+    "http",
+    "server",
+    "testing"
+  ],
   "engines": {
     "node": ">=8"
   },

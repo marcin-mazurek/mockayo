@@ -18,7 +18,7 @@ module.exports = {
   port: [PORT TO RUN THE MOCK SERVER ON], // defaults to 8000,
   mocks: [
     {
-      name: '[ENDPOINT NAME]',
+      name: '[ENDPOINT NAME - WILL BE DISPLAYED IN CONTROL UI]',
       method: '[ENDPOINT METHOD]',
       url: '[ENDPOINT URL]',
       directory: '[SUBDIRECTORY WITH SCENARIOS (UNDER BASE DIRECTORY)]',
